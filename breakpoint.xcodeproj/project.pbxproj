@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2FB31BA32160893300D65271 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB31BA22160893300D65271 /* DataService.swift */; };
 		2FD60D97215B3BEB0074F600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD60D96215B3BEB0074F600 /* AppDelegate.swift */; };
 		2FD60D99215B3BEB0074F600 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD60D98215B3BEB0074F600 /* FirstViewController.swift */; };
 		2FD60D9B215B3BEB0074F600 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD60D9A215B3BEB0074F600 /* SecondViewController.swift */; };
@@ -19,6 +20,7 @@
 
 /* Begin PBXFileReference section */
 		2DAD64B86EBF1CA20C11E283 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2FB31BA22160893300D65271 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
 		2FD60D93215B3BEB0074F600 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD60D96215B3BEB0074F600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD60D98215B3BEB0074F600 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -113,6 +115,7 @@
 		2FD60DAE215B3D4E0074F600 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				2FB31BA22160893300D65271 /* DataService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -272,6 +275,7 @@
 				2FD60D9B215B3BEB0074F600 /* SecondViewController.swift in Sources */,
 				2FD60D97215B3BEB0074F600 /* AppDelegate.swift in Sources */,
 				2FD60D99215B3BEB0074F600 /* FirstViewController.swift in Sources */,
+				2FB31BA32160893300D65271 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -421,7 +425,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 344L79385W;
 				INFOPLIST_FILE = breakpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = personal.minricompany.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
@@ -437,7 +444,10 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 344L79385W;
 				INFOPLIST_FILE = breakpoint/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = personal.minricompany.breakpoint;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.2;
