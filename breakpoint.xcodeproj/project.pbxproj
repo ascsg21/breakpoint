@@ -8,6 +8,11 @@
 
 /* Begin PBXBuildFile section */
 		2FB31BA32160893300D65271 /* DataService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FB31BA22160893300D65271 /* DataService.swift */; };
+		2FC053AE2162217100DCD2F4 /* AuthVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC053AD2162217100DCD2F4 /* AuthVC.swift */; };
+		2FC053B02162220A00DCD2F4 /* LoginVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC053AF2162220A00DCD2F4 /* LoginVC.swift */; };
+		2FC053B22162229800DCD2F4 /* InsetTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC053B12162229800DCD2F4 /* InsetTextField.swift */; };
+		2FC053B42162296500DCD2F4 /* ShadowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC053B32162296500DCD2F4 /* ShadowView.swift */; };
+		2FC053B621622ACA00DCD2F4 /* AuthService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FC053B521622ACA00DCD2F4 /* AuthService.swift */; };
 		2FD60D97215B3BEB0074F600 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD60D96215B3BEB0074F600 /* AppDelegate.swift */; };
 		2FD60D99215B3BEB0074F600 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD60D98215B3BEB0074F600 /* FirstViewController.swift */; };
 		2FD60D9B215B3BEB0074F600 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FD60D9A215B3BEB0074F600 /* SecondViewController.swift */; };
@@ -21,6 +26,11 @@
 /* Begin PBXFileReference section */
 		2DAD64B86EBF1CA20C11E283 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FB31BA22160893300D65271 /* DataService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataService.swift; sourceTree = "<group>"; };
+		2FC053AD2162217100DCD2F4 /* AuthVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthVC.swift; sourceTree = "<group>"; };
+		2FC053AF2162220A00DCD2F4 /* LoginVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginVC.swift; sourceTree = "<group>"; };
+		2FC053B12162229800DCD2F4 /* InsetTextField.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = InsetTextField.swift; sourceTree = "<group>"; };
+		2FC053B32162296500DCD2F4 /* ShadowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShadowView.swift; sourceTree = "<group>"; };
+		2FC053B521622ACA00DCD2F4 /* AuthService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthService.swift; sourceTree = "<group>"; };
 		2FD60D93215B3BEB0074F600 /* breakpoint.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = breakpoint.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2FD60D96215B3BEB0074F600 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		2FD60D98215B3BEB0074F600 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
@@ -87,6 +97,8 @@
 			children = (
 				2FD60D98215B3BEB0074F600 /* FirstViewController.swift */,
 				2FD60D9A215B3BEB0074F600 /* SecondViewController.swift */,
+				2FC053AD2162217100DCD2F4 /* AuthVC.swift */,
+				2FC053AF2162220A00DCD2F4 /* LoginVC.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -94,6 +106,8 @@
 		2FD60DAB215B3CE30074F600 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2FC053B12162229800DCD2F4 /* InsetTextField.swift */,
+				2FC053B32162296500DCD2F4 /* ShadowView.swift */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -116,6 +130,7 @@
 			isa = PBXGroup;
 			children = (
 				2FB31BA22160893300D65271 /* DataService.swift */,
+				2FC053B521622ACA00DCD2F4 /* AuthService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -272,9 +287,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2FC053AE2162217100DCD2F4 /* AuthVC.swift in Sources */,
 				2FD60D9B215B3BEB0074F600 /* SecondViewController.swift in Sources */,
+				2FC053B02162220A00DCD2F4 /* LoginVC.swift in Sources */,
+				2FC053B621622ACA00DCD2F4 /* AuthService.swift in Sources */,
 				2FD60D97215B3BEB0074F600 /* AppDelegate.swift in Sources */,
+				2FC053B42162296500DCD2F4 /* ShadowView.swift in Sources */,
 				2FD60D99215B3BEB0074F600 /* FirstViewController.swift in Sources */,
+				2FC053B22162229800DCD2F4 /* InsetTextField.swift in Sources */,
 				2FB31BA32160893300D65271 /* DataService.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
