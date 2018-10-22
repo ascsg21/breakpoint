@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		2F10A4912169CC4300321A6B /* Message.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F10A4902169CC4300321A6B /* Message.swift */; };
+		2F2636D1217DCC38006C1D21 /* Group.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F2636D0217DCC38006C1D21 /* Group.swift */; };
 		2F396D4A216899E600A59073 /* UIViewExt.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F396D49216899E600A59073 /* UIViewExt.swift */; };
 		2F396D4C2168AF3800A59073 /* FeedCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F396D4B2168AF3800A59073 /* FeedCell.swift */; };
 		2F942D72216C67F6007CC548 /* CreateGroupsVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2F942D71216C67F6007CC548 /* CreateGroupsVC.swift */; };
@@ -34,6 +35,7 @@
 /* Begin PBXFileReference section */
 		2DAD64B86EBF1CA20C11E283 /* Pods_breakpoint.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_breakpoint.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F10A4902169CC4300321A6B /* Message.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Message.swift; sourceTree = "<group>"; };
+		2F2636D0217DCC38006C1D21 /* Group.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Group.swift; sourceTree = "<group>"; };
 		2F396D49216899E600A59073 /* UIViewExt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIViewExt.swift; sourceTree = "<group>"; };
 		2F396D4B2168AF3800A59073 /* FeedCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedCell.swift; sourceTree = "<group>"; };
 		2F942D71216C67F6007CC548 /* CreateGroupsVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreateGroupsVC.swift; sourceTree = "<group>"; };
@@ -138,6 +140,7 @@
 			isa = PBXGroup;
 			children = (
 				2F10A4902169CC4300321A6B /* Message.swift */,
+				2F2636D0217DCC38006C1D21 /* Group.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -320,6 +323,7 @@
 				2FC053B02162220A00DCD2F4 /* LoginVC.swift in Sources */,
 				2FC053B621622ACA00DCD2F4 /* AuthService.swift in Sources */,
 				2F942D72216C67F6007CC548 /* CreateGroupsVC.swift in Sources */,
+				2F2636D1217DCC38006C1D21 /* Group.swift in Sources */,
 				2F942D74216C7877007CC548 /* UserCell.swift in Sources */,
 				2FD60D97215B3BEB0074F600 /* AppDelegate.swift in Sources */,
 				2FC053B42162296500DCD2F4 /* ShadowView.swift in Sources */,
